@@ -5,7 +5,9 @@ You can create, edit, view and delete locations.
 You can categorize the locations and manage categories.
 You can view the location an the map.
 
-usage: 
+usage
+
 npm install
+
 npm start
 
