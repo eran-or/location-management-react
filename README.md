@@ -2,11 +2,16 @@
 simple app for management favourite locations made in react web
 
 You can create, edit, view and delete locations.
-You can categorize the locations and manage categories.
+<br>
+You can categorize the locations and manage categories and locations.
+<br>
 You can view the location an the map.
+<br>
+[Demo](https://eran-or.github.io/location-management-react/)
+<br>
+<b>usage</b>
 
-usage: 
 npm install
+
 npm start
 
-you can first view the demo
