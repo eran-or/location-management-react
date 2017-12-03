@@ -9,4 +9,4 @@ usage:
 npm install
 npm start
 
-you can first view the demo
+you can first view the [Demo](https://eran-or.github.io/location-management-react/)
