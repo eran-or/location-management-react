@@ -40,7 +40,6 @@ class LocationForm extends React.Component {
         }
       }
       if (!exist) {
-        console.log("eran")
         this.setState(() => ({ error: '' }));
         this.props.onSubmit({
           name: this.state.name,

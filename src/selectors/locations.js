@@ -1,11 +1,8 @@
 export default (locations, { sortOrder, groupedByCategory, category }) => {
-console.log(category)
-console.log(groupedByCategory)
   const isAlphabetically = (sortOrder === 'Alphabetically') ? true : false;
   if (groupedByCategory) {
     let locationsGroupedByCategory = {};
     locations.forEach((location) => {
-      console.log(isAlphabetically)
       if (locationsGroupedByCategory[location.category.value]) {
         locationsGroupedByCategory[location.category.value].push(location)
       } else {
@@ -23,7 +20,6 @@ console.log(groupedByCategory)
           result[key].sort((a, b) => {
             return a.name > b.name ? 1 : -1;
           })
-          console.log(result)
           return result;
         }, {});
 

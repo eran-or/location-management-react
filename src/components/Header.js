@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-
 const Header = (props) => {
   return (
     <header className="text-center pt-5 pb-5">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import EditCategoryPage from '../components/EditCategoryPage';
 import EditLocationPage from '../components/EditLocationPage';
 import Dashboard from '../components/Dashboard'
@@ -14,7 +14,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const AppRouter = (props) => (
-    <BrowserRouter>
+    <Router basename="/location-management-react">
         <div>
             <Navbar />
             <Switch>
@@ -32,7 +32,7 @@ const AppRouter = (props) => (
             </Switch>
             <Footer {...props}/>
         </div>
-    </BrowserRouter>
+    </Router >
 );
 
 export default AppRouter;
